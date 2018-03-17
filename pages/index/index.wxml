@@ -1,0 +1,54 @@
+<import src="job-list-template/job-list-template.wxml" />
+
+<view class='swiperBox'>
+  <swiper class='swiper'  indicator-dots="{{true}}"
+  autoplay="{{true}}" interval="{{3000}}" duration="{{400}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item >
+      <image src="{{item.tipImage}}" ontap="tapImage" data-objectid='{{item.objectId}}'  class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+
+<view class='tarBox'>
+  <view class='singleBar' ontap="tofullTime" >
+    <view class='logoBox' style='background: #66CCCC;'>
+      <text class='fa fa-address-card-o' style='font-size: 46rpx;' ></text>
+    </view>
+    <text class='barName'>全职</text>
+  </view>
+  <view class='singleBar' ontap="topartTime">
+    <view class='logoBox' style='background: #FF99CC;'>
+      <text class='fa fa-graduation-cap' style='font-size: 48rpx;'></text>
+    </view>
+    <text class='barName'>实习</text>
+  </view>
+  <view class='singleBar' ontap="toCompany">
+    <view class='logoBox' style='background: #FF9966;'>
+      <text class='fa fa-building-o' style='font-size: 48rpx;'></text>
+    </view>
+    <text class='barName'>公司</text>
+  </view>
+  <view class='singleBar' ontap="toTips">
+    <view class='logoBox' style='background: #99CC66;'>
+      <text class='fa fa-book' style='font-size: 48rpx;'></text>
+    </view>
+    <text class='barName'>宝典</text>
+  </view>
+  <view class='singleBar' ontap="toNews">
+    <view class='logoBox' style='background: #99CCFF;'>
+      <text class='fa fa-newspaper-o' style='font-size: 44rpx;'></text>
+    </view>
+    <text class='barName'>新闻</text>
+  </view>
+</view>
+
+<view class='goodJob'> - 热门职位 -</view>
+
+<view class='jobList'>
+<block wx:for="{{hotJobList}}" wx:for-item="item">
+  <template is="job_list" data="{{...item}}" />
+</block>
+  
+</view>

@@ -1,0 +1,25 @@
+<import src="../../../wemark/wemark.wxml" />
+
+<view class='topImageBox' >
+  <image src='{{mesMes.tipImage}}'></image>
+</view>
+<view class='spaceBox'>
+  <view class='avatar'>
+    <image src='{{mesMes.authorImage}}'></image>
+  </view>
+  <view class='otherBox'>
+    <text class='authorName'>{{mesMes.tipSource}}</text>
+    <text class='putDate'>{{mesMes.tipDate}}</text>
+  </view>
+</view>
+<view class='titleBox'>
+  <view class='title' >
+  {{mesMes.tipTitle}}
+  </view>
+</view>
+
+<view class='contentBox'>
+  <view class='content'>
+    <template is="wemark" data="{{...wemark}}"></template>
+  </view>
+</view>

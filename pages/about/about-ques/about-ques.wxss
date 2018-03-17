@@ -1,0 +1,10 @@
+.contianer{
+  width: 100%;
+  display: flex;
+  margin-top: 400rpx;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+  color: #666;
+}

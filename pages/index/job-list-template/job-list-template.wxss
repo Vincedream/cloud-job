@@ -1,0 +1,73 @@
+/* pages/index/job-list-template/job-list-template.wxss */
+.singlBox{
+  width: 92%;
+  height: 176rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f3f3f3;
+}
+.imageBox{
+  height: 120rpx;
+  width: 120rpx;
+}
+.imageBox image{
+  height: 120rpx;
+  width: 120rpx;
+  border-radius: 4rpx;
+}
+
+.jobMesBox{
+  height: 136rpx;
+  width: 400rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.jobName{
+  
+  width: 370rpx;
+  font-size: 35rpx;
+  color: #3b3b3b;
+  white-space: nowrap;
+  overflow: hidden; 
+  text-overflow:ellipsis;
+  display: block;
+}
+.incName{
+  display: block;
+  width: 370rpx;
+  font-size: 30rpx;
+  color: #828282;
+  white-space: nowrap;
+  overflow: hidden; 
+  text-overflow:ellipsis;
+ }
+.jobMes{
+  display: block;
+  width: 370rpx;
+  font-size: 26rpx;
+  color: #b3b3b3;
+  white-space: nowrap;
+  overflow: hidden; 
+  text-overflow:ellipsis;
+ }
+
+.monDateBox{
+  height: 130rpx;
+  width: 150rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.moneyText{
+  display: block;
+  color: #fd6440;
+  font-size: 32rpx;
+}
+.timeText{
+  display: block;
+  color: #c4c4c4;
+  font-size: 28rpx;
+}

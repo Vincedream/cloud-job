@@ -1,0 +1,162 @@
+@import "../../../wemark/wemark.wxss";
+.topContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.topBox{
+  height: 240rpx;
+  width: 93%;
+  display: flex;
+  border-bottom: 1px solid #f3f5f4;
+  flex-direction: column;
+  padding-top: 26rpx;
+  box-sizing: border-box;
+}
+.jobName{
+  font-size: 54rpx;
+  white-space: nowrap;
+  overflow: hidden; 
+  text-overflow:ellipsis;
+  display: block;
+}
+.jobMesBox{
+  margin-top: 20rpx;
+  font-size: 30rpx;
+  white-space: nowrap;
+  overflow: hidden; 
+  text-overflow:ellipsis;
+  display: block;
+}
+.moneyText{
+  color: #fd704f;
+}
+.jobMes{
+  color: #5a5a5a;
+}
+.jobFuli{
+  margin-top: 16rpx;  
+  color: #a6a6a6;
+  font-size: 27rpx;
+  white-space: nowrap;
+  overflow: hidden; 
+  text-overflow:ellipsis;
+  display: block;
+}
+.incBox{
+  height: 130rpx;
+  width: 93%;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between; 
+  margin-top: 14rpx;
+}
+.incTextBox{
+  width: 570rpx;
+  height: 100rpx;
+}
+.incName{
+  display: block;
+  font-size: 36rpx;
+  color: #333333;
+  white-space: nowrap;
+  overflow: hidden; 
+  text-overflow:ellipsis;
+}
+.incMes{
+  margin-top: 10rpx;
+  display: block;
+  font-size: 27rpx;
+  color: #969696;
+  white-space: nowrap;
+  overflow: hidden; 
+  text-overflow:ellipsis;
+}
+.IncImageBox{
+  width: 100rpx;
+  height: 100rpx;
+}
+.IncImageBox image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 6rpx;
+}
+.between{
+  height: 20rpx;
+  width: 100%;
+  background: #f0f1f5;
+}
+.topMesDetail{
+  display: flex;
+  justify-content: center;
+  margin-top: 10rpx;
+}
+.spaceBox{
+  height: 40rpx;
+  width: 130rpx;
+  border-bottom: 1px solid #eaebed;
+}
+.mesBoxTopText{
+  height: 60rpx;
+  width: 300rpx;
+  text-align: center;
+  line-height: 83rpx;
+  font-size: 30rpx;
+  color: #5e5e5e;
+}
+
+.jobTextBoxContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 12rpx;
+}
+.jobTextBox{
+  width: 92%;
+  margin-bottom: 80rpx;
+}
+.bottombar{
+  height:100rpx;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+}
+.cagBar{
+  height: 90rpx;
+  width: 178rpx;
+  color: #a7a7a7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cagLogo{
+  font-size: 42rpx;
+}
+.cagText{
+  font-size: 24rpx;
+}
+.submitResunmeBar{
+  height: 80rpx;
+  width: 515rpx;
+  background: #26b693;
+  margin-right: 50rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color: white;
+  border-radius: 5rpx;
+  font-size: 32rpx;
+  box-sizing: border-box;
+}
+.submitResunmeBar:active{
+  background: white;
+  color: #26b693;
+  border: 1px solid #26b693;
+}

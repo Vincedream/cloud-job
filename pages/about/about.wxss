@@ -1,0 +1,54 @@
+.topView{
+  height: 260rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #26b693;
+}
+.avaPic{
+  height: 140rpx;
+  width: 140rpx;
+  border-radius: 70rpx;
+}
+.nickName{
+  margin-top: 24rpx;
+  color: white;
+}
+.meBar{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0rpx;
+}
+.barList{
+  width: 94%;
+  height: 64rpx;
+  border-bottom: 1px solid #e0e0e0;
+  line-height: 40rpx;
+  margin-top: 24rpx;
+  
+}
+.a{
+  display: inline-block;
+  width: 8%;
+  text-align: center;
+}
+.b{
+  display: inline-block;
+  width: 84%;
+  /* background: yellow; */
+  padding-left: 10rpx;
+  box-sizing: border-box;
+  color: #737273;
+}
+.c{
+  display: inline-block;  
+  width: 8%;
+  text-align: center;
+  font-size: 48rpx;
+  color: #bbbbbb;
+}

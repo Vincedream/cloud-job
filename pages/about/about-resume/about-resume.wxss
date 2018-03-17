@@ -1,0 +1,35 @@
+.resumeBox{
+  width: 94%;
+  margin: 0 auto;
+  /* background: pink; */
+  display: flex;
+  justify-content: center;
+  
+}
+.resumeImage{
+  border: 2px dotted #868585;
+  margin-top: 20rpx;
+  width: 700rpx;
+  height: 990rpx;
+  /* background: yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #868585;
+  
+}
+.tips{
+  padding: 10rpx 70rpx 0 70rpx;
+  height: 80rpx;
+  font-size: 24rpx;
+  color: #868585;
+}
+.inputButtonBox{
+  margin: 0 auto;
+  /* margin-top: 120rpx; */
+  width: 640rpx; 
+  background: #26b693;
+  color: white;
+  height: 80rpx;
+  line-height: 80rpx;
+}

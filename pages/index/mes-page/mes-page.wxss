@@ -1,0 +1,70 @@
+.topImageBox{
+  width: 100%;
+  height: 380rpx;
+}
+.topImageBox image{
+  width: 100%;
+  height: 380rpx;
+}
+.spaceBox{
+  height: 80rpx;
+  width: 100%;
+  background: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #efefef;
+}
+.avatar{
+  margin-left: 24rpx;
+  height: 66rpx;
+  width: 66rpx;
+}
+.avatar image{
+  height: 66rpx;
+  width: 66rpx;
+  border-radius: 33rpx;
+}
+.otherBox{
+  height: 80rpx;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20rpx;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+.authorName{
+  font-size: 32rpx;
+  color: #636363;
+}
+@import "../../../wemark/wemark.wxss";
+
+.putDate{
+  font-size: 26rpx;
+  color: #c7c7c7;
+}
+.titleBox{
+  margin-top: 30rpx;
+  width: 100%;
+  height: 120rpx;
+  display: flex;
+  justify-content: center;
+}
+.title{
+  width: 650rpx;
+  height: 120rpx;
+  /* background: pink; */
+  text-align: center;
+  font-size: 48rpx;
+  color: #474747;
+}
+.contentBox{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 28rpx;
+}
+.content{
+  width: 94%;
+}

@@ -1,0 +1,16 @@
+<template name='job_list'>
+  <view catchtap='tapJob' data-jobid="{{objectId}}" class='singlBox'>
+    <view class='imageBox'>
+      <image src='{{incImage}}'></image>
+    </view>
+    <view class='jobMesBox'>
+      <text class='jobName'>{{jobName}}</text>
+      <text class='incName'>{{incName}}</text>
+      <text class='jobMes'>{{jobMes}}</text>
+    </view>
+    <view class='monDateBox'>
+      <text class='moneyText'>{{moneyText}}</text>
+      <text class='timeText'>{{timeText}}</text>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,7 @@
+<import src="../job-list-template/job-list-template.wxml" />
+
+<view class="jobList">
+  <block wx:for="{{hotJobList}}" wx:for-item="item">
+  <template is="job_list" data="{{...item}}" />
+</block>
+</view>

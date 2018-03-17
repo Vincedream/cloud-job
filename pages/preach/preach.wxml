@@ -1,0 +1,43 @@
+<import src='preach-list-template/preach-list-template.wxml' />
+
+<picker mode="date" value="{{pickdefault}}" start="2017-09" end="2018-03" fields="month" bindchange="bindDateChange">
+  <view class='topbar'>
+    <text class='timebar'>{{pickYear}}年{{pickMonth}}月</text>
+    <view class='sanjiao'></view>
+  </view>
+</picker>
+
+<view>
+  <view class='calendarbar'>
+    <text>日</text>
+    <text>一</text>
+    <text>二</text>
+    <text>三</text>
+    <text>四</text>
+    <text>五</text>
+    <text>六</text>
+  </view>
+  <view class='calendarBox'>
+    <block wx:for="{{time_point}}" wx:for-item="item">
+      <view class='calendarPoint' ontap='Click' data-dayid='{{item.trueTime}}'>
+        <view class="dayPoint {{item.trueTime < DayToday? 'dayPointPass' : ''}} {{item.trueTime == DayToday? 'dayPointToday' : ''}} {{item.trueTime > DayToday? 'dayPointFu' : ''}} {{item.trueTime == pointAt? 'pointAt' : ''}} {{item.day == ''? 'dispoint' : ''}} ">{{item.day}}</view>
+        <view class="{{item.trueTime == DayToday? 'dayNow':'dayPass'}} {{item.day == ''? 'dayNo':''}} {{item.trueTime > DayToday? 'dayNo':''}}"></view>
+      </view>
+    </block>
+  </view>
+</view>
+
+<picker bindchange="bindPickerChangee" value="{{uniTitlePoint}}" range="{{uniArray}}">
+  <view class='pickOut'>
+    <view class='pickUn'>
+      {{uniArray[uniTitlePoint]}}
+      <text class='fa fa-angle-down fa-fw '></text>
+    </view>
+  </view>
+</picker>
+
+<view class='preachList'>
+  <block wx:for="{{preachMes}}" wx:for-item="item">
+    <template  is='preach_list' data='{{...item}}' />
+  </block>
+</view>

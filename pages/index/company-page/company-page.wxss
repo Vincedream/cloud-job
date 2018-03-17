@@ -1,0 +1,130 @@
+@import "../../../wemark/wemark.wxss";
+@import "../job-list-template/job-list-template.wxss";
+
+.companyContainer{  
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.singleBox{
+  width: 94%;
+  height: 160rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+   overflow: hidden; 
+  text-overflow:ellipsis;
+  border-bottom: 1px solid #ececec;
+  margin-top: 14rpx;
+  padding-bottom: 12rpx;
+}
+.imageBox{
+  height: 124rpx;
+  width: 124rpx;
+}
+.imageBox image{
+  height: 124rpx;
+  width: 124rpx;
+  border-radius: 5rpx; 
+          
+}
+.companyMesBox{
+  margin-left: 35rpx;
+  width: 510rpx;
+  height: 150rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+.companyName{
+  display: inline-block;  
+  width: 430rpx;
+  font-size: 40rpx;
+  white-space: nowrap;
+   overflow: hidden; 
+  text-overflow:ellipsis;
+  color: #5a5a5a;
+}
+.companySort{
+  display: inline-block;  
+  width: 430rpx;
+  font-size: 28rpx;
+  white-space: nowrap;
+   overflow: hidden; 
+  text-overflow:ellipsis;
+  color: #909090;
+}
+.otherBox{
+  width: 430rpx;
+  white-space: nowrap;
+   overflow: hidden; 
+  text-overflow:ellipsis;
+  color: #a5a5a5;
+}
+.companyPlace{
+  display: inline-block;  
+  font-size: 28rpx;
+  color: #4caf50;
+}
+.companyFuli{
+  display: inline-block;
+  margin-left: 20rpx;  
+  font-size: 28rpx;
+}
+.otherBox{
+  height: 40rpx;
+  line-height: 36rpx;
+}
+.changBar{
+  
+  width: 94%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 18rpx;
+}
+.singleBar{
+display: inline-block;
+  text-align: center;
+  font-size: 32rpx;
+  color: #a4a9b1;
+}
+.checkBar{
+  height: 56rpx;
+  border-bottom: 2px solid #26b693;
+  color: #26b693;
+}
+.space{
+  width: 100%;
+  height: 22rpx;
+  background: #f5f5f5;
+}
+.bottomContainer{
+  width: 94%;
+  display: flex;
+  justify-content: center;
+}
+.bottomBox{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Box1{
+  height: 400rpx;
+  width: 94%;
+  background: pink;
+}
+.Box2{
+  height: 400rpx;
+  width: 94%;
+  background: yellow;
+}
+.harf{
+  text-align: center;
+  width: 50%;
+}

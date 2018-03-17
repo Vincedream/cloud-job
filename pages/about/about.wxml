@@ -1,0 +1,26 @@
+<view class='topView'>
+  <image class='avaPic' src='{{avatar}}'></image>
+  <text class='nickName'>{{name}}</text>
+</view>
+<view class='meBar'>
+  <view class='barList' ontap='toMe'>
+    <text class='a fa fa-user-o' style='color:#009688;'></text>
+    <text class='b'>个人信息</text>
+    <text class='c fa fa-angle-right'></text>
+  </view>
+  <view class='barList' ontap='toResume'>
+    <text class='a fa fa-file-text-o' style='color:#ff4081;'></text>
+    <text class='b'>我的简历</text>
+    <text class='c fa fa-angle-right'></text>
+  </view>
+  <view class='barList' ontap='toCag'>
+    <text class='a fa fa-star-o' style='color:#ff9800; font-size:40rpx;'></text>
+    <text class='b'>收藏</text>
+    <text class='c fa fa-angle-right'></text>
+  </view>
+  <view class='barList' ontap='toQue'>
+    <text class='a fa fa-question-circle-o' style='color:#8bc34a;'></text>
+    <text class='b'>常见问题</text>
+    <text class='c fa fa-angle-right'></text>
+  </view>
+</view>

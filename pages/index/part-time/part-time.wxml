@@ -1,0 +1,122 @@
+<view class='container'>
+  <view class='singleBox' data-partid="{{'j020100'}}" ontap="tojobList">
+    <text class='bigPart'>人事行政</text>
+    <text class='smallPart'>HR</text>
+    <text class='smallPart'>行政</text>
+    <text class='smallPart'>人力资源</text>
+    <text class='smallPart'>猎头</text>
+    <text class='smallPart'>助理</text>
+    <view class='rightBox'>
+      <text class='fa fa-angle-right'></text>
+    </view>
+  </view>
+  <view class='singleBox' data-partid="{{'j020200'}}" ontap="tojobList">
+    <text class='bigPart'>财经法务</text>
+    <text class='smallPart'>金融</text>
+    <text class='smallPart'>基金</text>
+    <text class='smallPart'>证券</text>
+    <text class='smallPart'>风控</text>
+    <text class='smallPart'>投资</text>
+    <text class='smallPart'>银行</text>
+    <view class='rightBox'>
+      <text class='fa fa-angle-right'></text>
+    </view>
+  </view>
+  
+  <view class='singleBox' data-partid="{{'j020300'}}" ontap="tojobList">
+    <text class='bigPart'>市场商务</text>
+    <text class='smallPart'>销售</text>
+    <text class='smallPart'>推广</text>
+    <text class='smallPart'>公关</text>
+    <text class='smallPart'>媒介</text>
+    <text class='smallPart'>聚到</text>
+    <text class='smallPart'>分析</text>
+    <view class='rightBox'>
+      <text class='fa fa-angle-right'></text>
+    </view>
+  </view>
+  <view class='singleBox' data-partid="{{'j020400'}}" ontap="tojobList">
+    <text class='bigPart'>IT 技术</text>
+    <text class='smallPart'>Java</text>
+    <text class='smallPart'>PHP</text>
+    <text class='smallPart'>前端</text>
+    <text class='smallPart'>IOS</text>
+    <text class='smallPart'>大数据</text>
+    <text class='smallPart'>算法</text>
+    <view class='rightBox'>
+      <text class='fa fa-angle-right'></text>
+    </view>
+  </view>
+  <view class='singleBox' data-partid="{{'j020500'}}" ontap="tojobList">
+    <text class='bigPart'>电子/电气</text>
+    <text class='smallPart'>光电</text>
+    <text class='smallPart'>半导体</text>
+    <text class='smallPart'>芯片</text>
+    <text class='smallPart'>工程</text>
+    <text class='smallPart'>设计</text>
+    <view class='rightBox'>
+      <text class='fa fa-angle-right'></text>
+    </view>
+  </view>
+  <view class='singleBox' data-partid="{{'j020600'}}" ontap="tojobList">
+    <text class='bigPart'>物流/交通</text>
+    <text class='smallPart'>物流管理</text>
+    <text class='smallPart'>运输</text>
+    <text class='smallPart'>采购</text>
+    <text class='smallPart'>供应</text>
+    <text class='smallPart'>监管</text>
+    <view class='rightBox'>
+      <text class='fa fa-angle-right'></text>
+    </view>
+  </view>
+  <view class='singleBox' data-partid="{{'j020700'}}" ontap="tojobList">
+    <text class='bigPart'>新媒体</text>
+    <text class='smallPart'>广告</text>
+    <text class='smallPart'>创意</text>
+    <text class='smallPart'>策划</text>
+    <text class='smallPart'>编辑</text>
+    <text class='smallPart'>编导</text>
+    <text class='smallPart'>设计</text>
+    <view class='rightBox'>
+      <text class='fa fa-angle-right'></text>
+    </view>
+  </view>  
+  <view class='singleBox' data-partid="{{'j020800'}}" ontap="tojobList">
+    <text class='bigPart'>外语外贸</text>
+    <text class='smallPart'>英语</text>
+    <text class='smallPart'>日语</text>
+    <text class='smallPart'>俄语</text>
+    <text class='smallPart'>翻译</text>
+    <text class='smallPart'>报关员</text>
+    <view class='rightBox'>
+      <text class='fa fa-angle-right'></text>
+    </view>
+  </view>
+  
+  <view class='singleBox' data-partid="{{'j020900'}}" ontap="tojobList">
+    <text class='bigPart'>教育</text>
+    <text class='smallPart'>教务</text>
+    <text class='smallPart'>教师</text>
+    <text class='smallPart'>幼教</text>
+    <text class='smallPart'>家教</text>
+    <text class='smallPart'>咨询</text>
+    <text class='smallPart'>培训</text>
+    <text class='smallPart'>顾问</text>
+    <view class='rightBox'>
+      <text class='fa fa-angle-right'></text>
+    </view>
+  </view>
+  <view class='singleBox' data-partid="{{'j021000'}}" ontap="tojobList">
+    <text class='bigPart'>其他</text>
+    <text class='smallPart'>酒店</text>
+    <text class='smallPart'>医疗</text>
+    <text class='smallPart'>体育</text>
+    <text class='smallPart'>园林</text>
+    <text class='smallPart'>房地产</text>
+    <text class='smallPart'>土木</text>
+    <text class='smallPart'>生物</text>
+    <view class='rightBox'>
+      <text class='fa fa-angle-right'></text>
+    </view>
+  </view>
+</view>

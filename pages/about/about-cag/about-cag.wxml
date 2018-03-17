@@ -1,0 +1,25 @@
+<import src='../../preach/preach-list-template/preach-list-template.wxml' />
+<import src='../../index/job-list-template/job-list-template.wxml' />
+<view class='tabBox'>
+  <view class='tab'>
+    <view class="detailTab {{tabStyle =='a' ? 'chosed' : null }}" ontap="choseTabA">
+      <text class="rightBar  ">职位</text>
+    </view>
+    <view class="otherTab {{tabStyle =='b' ? 'chosed' : null }}" ontap="choseTabB">
+      <text>宣讲会</text>
+    </view>
+  </view>
+</view>
+
+<view class='cagBox'>
+    <block wx:if="{{tabStyle =='a'}}">
+      <block wx:for="{{jobMes}}" wx:for-item="item">
+        <template is='job_list' data='{{...item}}' />
+      </block>
+    </block>
+    <block wx:if="{{tabStyle =='b'}}">
+      <block wx:for="{{preachMes}}" wx:for-item="item">
+        <template is='preach_list' data='{{...item}}' />
+      </block>
+    </block>
+</view>

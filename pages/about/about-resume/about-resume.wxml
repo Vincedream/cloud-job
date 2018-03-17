@@ -1,0 +1,18 @@
+<view class='resumeBox' ontap='uploadImage'>
+  <block wx:if="{{ImageUrl == ''}}">
+    <view class='resumeImage '>
+   点击上传简历</view>
+  </block>
+  <block wx:if="{{ImageUrl != ''}}">
+    <image class='resumeImage ' src='{{ImageUrl}} '></image>
+  </block>
+</view>
+<view class='tips '>
+  <text class='fa fa-arrow-circle-o-up '></text>
+  温馨提示：将您的简历转换为图片格式才能在小程序上传简历哦！
+</view>
+<view>
+  <button ontap='savaImage' class='inputButtonBox' >
+    保存并返回
+  </button>
+</view>

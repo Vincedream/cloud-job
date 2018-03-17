@@ -1,0 +1,21 @@
+<block wx:for="{{companyMes}}" wx:for-item="item">
+  <view class="companyContainer" data-comname="{{item.incName}}" catchtap='tapAllJob'>
+    <view class='singleBox'>
+      <view class='imageBox'>
+        <image src='{{item.incImage}}' class='image'></image>
+      </view>
+      <view class='companyMesBox'>
+        <text class='companyName'>{{item.incName}}</text>
+        <text class='companySort'>{{item.incSort}}</text>
+        <view class='otherBox'>
+          <text class='companyPlace'>{{item.incPlace}}</text>
+          <text class='companyFuli'>{{item.incFuli}}</text>
+        </view>
+      </view>
+      <view class='numBox'>
+        <text class='jobNumber'>{{item.incJobNum}}个</text>
+        <text class='jobText'>在招职位</text>
+      </view>
+    </view>
+  </view>
+</block>

@@ -1,0 +1,93 @@
+.companyContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.singleBox{
+  width: 94%;
+  height: 150rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+   overflow: hidden; 
+  text-overflow:ellipsis;
+  border-bottom: 1px solid #ececec;
+  margin-top: 14rpx;
+}
+.imageBox{
+  height: 112rpx;
+  width: 112rpx;
+}
+.imageBox image{
+  height: 112rpx;
+  width: 112rpx;
+  border-radius: 5rpx;         
+}
+.companyMesBox{
+  margin-left: 20rpx;
+  width: 430rpx;
+  height: 140rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.companyName{
+  display: inline-block;  
+  width: 430rpx;
+  font-size: 36rpx;
+  white-space: nowrap;
+   overflow: hidden; 
+  text-overflow:ellipsis;
+  color: #5a5a5a;
+}
+.companySort{
+  display: inline-block;  
+  width: 430rpx;
+  font-size: 28rpx;
+  white-space: nowrap;
+   overflow: hidden; 
+  text-overflow:ellipsis;
+  color: #909090;
+}
+.otherBox{
+  width: 430rpx;
+  white-space: nowrap;
+   overflow: hidden; 
+  text-overflow:ellipsis;
+  color: #a5a5a5;
+}
+.companyPlace{
+  display: inline-block;  
+  font-size: 28rpx;
+  color: #4caf50;
+}
+.companyFuli{
+  display: inline-block;
+  margin-left: 20rpx;  
+  font-size: 28rpx;
+}
+.otherBox{
+  height: 40rpx;
+  line-height: 36rpx;
+}
+.numBox{
+  width: 120rpx;
+  height: 90rpx;
+  text-align: center;
+}
+.jobNumber{
+  display: block;
+  font-size: 28rpx;
+  text-align: center;
+  color: #26b693;
+}
+.jobText{
+  display: block;
+  font-size: 24rpx;
+  margin-top: 8rpx;
+  color: #adadad;
+}

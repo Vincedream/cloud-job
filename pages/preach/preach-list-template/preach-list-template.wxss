@@ -1,0 +1,71 @@
+.preach{
+  width: 95%;
+   /* background: pink;  */
+  border-bottom: 1px solid #f7f7f7;
+  height: 185rpx;
+  display: flex;
+  flex-direction: row; 
+  box-sizing: border-box;
+}
+.uniImageBox{
+  width: 130rpx;
+  height: 100%;
+  padding-top: 35rpx;
+  box-sizing: border-box;
+  margin-right: 25rpx;
+  margin-left: 10rpx;
+}
+.uniImage{
+  height: 120rpx;
+  width: 120rpx;
+  border-radius: 60rpx; 
+}
+.preachMes{
+  display: flex;
+  flex-direction: column;
+  width: 75%
+}
+.incName{
+  margin-top: 20rpx;
+  width: 100%;
+  color: #5a5a5a;
+  font-size: 34rpx;
+   white-space: nowrap;
+   overflow: hidden; 
+  text-overflow:ellipsis;
+}
+.uniAndTime{
+  margin-top: 10rpx;
+  font-size: 26rpx;
+  text-overflow:ellipsis;
+}
+.uniName{
+  display: inline-block;
+  width: 58%;
+  color: #bbb9b9;
+   white-space: nowrap;
+   overflow: hidden; 
+  text-overflow:ellipsis;
+  height: 36rpx;
+}
+.uniSpace{
+ display: inline-block;
+  width: 42%;
+  color: #bbb9b9;
+  white-space: nowrap;
+   overflow: hidden; 
+  text-overflow:ellipsis;
+  height: 36rpx;
+}
+.preachTime{
+  margin-top: 8rpx;
+  font-size: 26rpx;
+  color: #bbb9b9;
+  text-overflow:ellipsis;
+}
+.iconWidthLarge{
+  width: 42rpx;  
+}
+.iconWidth{
+  width: 35rpx;
+}

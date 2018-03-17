@@ -1,0 +1,43 @@
+/* pages/about/about-me/about-me.wxss */
+.InfoBox{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #545454;
+  /* height: 1334rpx; */
+  background: #f6f6f6;
+}
+.Info{
+  width: 94%;
+}
+.inputCom{
+  margin-top: 15rpx;
+}
+.inputBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rpx;
+}
+.input{
+  width: 94%;  
+  height: 76rpx;
+  border: 1px solid #e4e4e4;
+  border-radius: 6rpx;
+  box-shadow: 0 0 10rpx #e4e4e4;
+  color: #8e8c8c;
+  box-sizing: border-box;
+  padding-left: 15rpx;
+}
+.inputButtonBox{
+  margin: 0 auto;
+  margin-top: 120rpx;
+  width: 640rpx; 
+  background: #26b693;
+  color: white;
+}
+.inputButtonBox:active{
+  background: red;
+}

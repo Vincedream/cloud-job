@@ -1,0 +1,51 @@
+@import "../../preach/preach-list-template/preach-list-template.wxss";
+@import "../../index/job-list-template/job-list-template.wxss";
+
+.tabBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 8rpx;
+  font-size: 30rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  color: #333;
+}
+
+.tab {
+  width: 94%;
+}
+
+.detailTab {
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+  text-align: center;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.rightBar {
+  height: 54rpx;
+  width: 100%;
+  display: inline-block;
+  border-right: 1px solid #eaeaea;
+}
+
+.otherTab {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.chosed {
+  border-bottom: 1px solid #26b693;
+  color: #26b693;
+}
+.cagBox{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,18 @@
+<template name='preach_list'>
+  <view catchtap='tapPreach' data-preachid="{{objectId}}" class='preach'>
+    <view class='uniImageBox'>
+      <image class='uniImage' src="{{imgSrc}}"></image>
+    </view>
+    <view class='preachMes'>
+      <text class='incName'>{{incName}}</text>
+      <view class='uniAndTime'>
+        <text class='uniName'>
+          <text class='fa fa-graduation-cap iconWidthLarge'> </text>{{uniName}}</text>
+        <text class='uniSpace'>
+          <text class='fa fa-location-arrow iconWidth'> </text>{{uniSpace}}</text>
+      </view>
+      <text class='preachTime'>
+        <text class='fa fa-clock-o iconWidthLarge'> </text>{{preachTime}}</text>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,61 @@
+<import src="../../../wemark/wemark.wxml" />
+<import src='../preach-list-template/preach-list-template.wxml' />
+<view class="topDetail">
+  <view class='imageBox'>
+    <image class='image' src='{{preach_detail.imgSrc}}'></image>
+  </view>
+  <view class='preachTopMes'>
+    <text class='incNameDet'>{{preach_detail.incName}}</text>
+    <text class='preachFrom'>来源：青云校招认证</text>
+  </view>
+</view> 
+
+<view class='preachDetBox'>
+  <view class='preachDet'>
+    <text class='uniNameDet ellipsis'>
+      <text class='fa fa-graduation-cap iconWidth'> </text>{{preach_detail.uniName}}</text>
+    <text class='preachSpaDet ellipsis'>
+      <text class='fa fa-location-arrow iconWidth'> </text>{{preach_detail.uniSpace}}</text>
+    <text class='preachTimeDet ellipsis'>
+      <text class='fa fa-clock-o iconWidthLarge'> </text>{{preach_detail.preachTime}}</text>
+  </view>
+</view>
+
+<view class='tabBox'>
+  <view class='tab'>
+    <view class="detailTab {{tabStyle =='a' ? 'chosed' : null }}" ontap="choseTabA">
+      <text class="rightBar  ">宣讲详情</text>
+    </view>
+    <view class="otherTab {{tabStyle =='b' ? 'chosed' : null }}" ontap="choseTabB">
+      <text>该校其他宣讲</text>
+    </view>
+  </view>
+</view>
+
+<view class='detailBox'>
+  <scroll-view scroll-y class='scroll'>
+    <block wx:if="{{tabStyle =='a'}}">
+      <template is="wemark" data="{{...wemark}}"></template>
+    </block>
+    <block wx:if="{{tabStyle =='b'}}">
+      <block wx:for="{{preachMes}}" wx:for-item="item">
+        <template is='preach_list' data='{{...item}}' />
+      </block>
+    </block>
+  </scroll-view>
+</view>
+
+<view class='bottomBox'>
+  <view class='shareBox clickIcon' ontap='sharePage' open-type="share">
+
+    <text><text class='fa fa-share-square-o iconWidth'></text>分享</text>
+  </view>
+  <view class='cagBox clickIcon' ontap='savetoCag'>
+    <block wx:if="{{!caged}}">
+      <text><text class='fa fa-star-o iconWidth'></text>收藏</text>
+    </block>
+    <block wx:if="{{caged}}">
+      <text style='color:#26b693'><text class='fa fa-star iconWidth' style='color:#26b693' ></text>已收藏</text>
+    </block>
+  </view>
+</view>

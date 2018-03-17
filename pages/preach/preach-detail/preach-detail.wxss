@@ -1,0 +1,225 @@
+@import "../../../wemark/wemark.wxss";
+@import "../preach-list-template/preach-list-template.wxss";
+
+.topDetail {
+  position: relative;
+  width: 100%;
+  height: 110rpx;
+  background: #26b693;
+}
+
+.topDetail:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -22rpx;
+  z-index: -1;
+  content: ' ';
+  height: 30rpx;
+  width: 100%;
+  border-radius: 0 0 120% 120%;
+  background-color: #26b693;
+}
+
+.imageBox {
+  float: left;
+}
+
+.image {
+  height: 110rpx;
+  width: 110rpx;
+  margin-left: 45rpx;
+  border-radius: 55rpx;
+}
+
+.preachTopMes {
+  display: flex;
+  flex-direction: column;
+  margin-left: 220rpx;
+  color: white;
+}
+
+.incNameDet {
+  width: 92%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 0rpx;
+  font-size: 37rpx;
+}
+
+.preachFrom {
+  width: 92%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 20rpx;
+  font-size: 30rpx;
+}
+
+.preachDetBox {
+  margin-top: 38rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.preachDet {
+  width: 94%;
+  border-bottom: 1px solid #eaeaea;
+  color: #666;
+}
+
+.uniNameDet {
+  display: inline-block;
+  width: 45%;
+  font-size: 28rpx;
+  margin-left: 40rpx;
+}
+
+.preachSpaDet {
+  display: inline-block;
+  width: 48%;
+  font-size: 28rpx;
+}
+
+.preachTimeDet {
+  display: inline-block;
+  width: 40%;
+  font-size: 28rpx;
+  margin-left: 40rpx;
+  margin-bottom: 7rpx;
+}
+
+.iconWidth {
+  width: 42rpx;
+  color: #b3b3b3;
+}
+
+.iconWidthLarge {
+  margin-left: 4rpx;
+  width: 38rpx;
+  color: #b3b3b3;
+}
+
+.tabBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 8rpx;
+  font-size: 30rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  color: #333;
+}
+
+.tab {
+  width: 94%;
+}
+
+.detailTab {
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+  text-align: center;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.rightBar {
+  height: 54rpx;
+  width: 100%;
+  display: inline-block;
+  border-right: 1px solid #eaeaea;
+}
+
+.otherTab {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.chosed {
+  border-bottom: 1px solid #26b693;
+  color: #26b693;
+}
+
+.detailBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 20rpx;
+}
+
+.scroll {
+  width: 94%;
+  height: 786rpx;
+  /* background: pink; */
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.bottomBox {
+  /* display: fix; */
+  bottom: 0rpx;
+  left: 0rpx;
+  height: 66rpx;
+  width: 100%;
+  /* background: pink; */
+  padding-top: 10rpx;
+  text-align: center;
+  color: #333;
+  font-size: 32rpx;
+  line-height: 66rpx;
+}
+
+.shareBox {
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+  border-right: 1px solid #eaeaea;
+}
+
+.clickIcon:active {
+  color: #26b693;
+}
+
+.cagBox {
+  display: inline-block;
+  width: 50%;
+}
+
+.shareButton{
+  position:relative;
+display:inline;
+margin-left:0;
+margin-right:0;
+padding-left:0;
+padding-right:0;
+box-sizing:border-box;
+font-size:30rpx;
+text-align:center;
+text-decoration:none;
+line-height:30rpx;
+border:1px solid rgba(0, 0, 0, 0);
+
+border-radius:0px;
+-webkit-tap-highlight-color:transparent;
+overflow:hidden;
+color:#000000;
+background-color:transparent;
+
+}

@@ -1,0 +1,43 @@
+<view class='InfoBox'>
+  <form class='Info' bindsubmit='formBindSubmit'>
+    <view class='inputCom'>
+      <text>真实姓名</text>
+      <view class='inputBox'>
+        <input class='input' value='{{userAllMssage.trueName}}' name='trueName'></input>
+      </view>
+    </view>
+    <view class='inputCom'>
+      <text>邮箱</text>
+      <view class='inputBox'>
+      <input class='input' value='{{userAllMssage.userEmail}}' name='userEmail'></input>
+      </view>
+    </view>
+    <view class='inputCom'>
+      <text>电话</text>
+      <view class='inputBox'>
+      <input class='input' value='{{userAllMssage.userTel}}'  name='userTel'></input>
+      </view>
+    </view>
+    <view class='inputCom'>
+      <text>毕业院校</text>
+      <view class='inputBox'>
+      <input class='input' value='{{userAllMssage.userUniversity}}'  name='userUniversity'></input>
+      </view>
+    </view>
+    <view class='inputCom'>
+      <text>专业</text>
+      <view class='inputBox'>
+      <input class='input' value='{{userAllMssage.userMajor}}' name='userMajor'></input>
+      </view>
+    </view>
+    <view class='inputCom'>
+      <text>期望工作地</text>
+      <view class='inputBox'>
+      <input class='input' value='{{userAllMssage.userJobPlace}}' name='userJobPlace'></input>
+      </view>
+    </view>
+    <view >
+      <button  class='inputButtonBox' form-type='submit'>保存并返回</button>
+    </view>
+  </form>
+</view>

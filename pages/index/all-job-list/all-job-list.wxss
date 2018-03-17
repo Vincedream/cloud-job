@@ -1,0 +1,9 @@
+@import "../job-list-template/job-list-template.wxss";
+
+/* pages/index/all-job-list/all-job-list.wxss */
+.jobList{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

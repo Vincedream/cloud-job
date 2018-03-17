@@ -1,0 +1,45 @@
+<import src="../../../wemark/wemark.wxml" />
+<import src="../job-list-template/job-list-template.wxml" />
+
+<view class="companyContainer" data-comname="{{item.incName}}" catchtap='tapAllJob'>
+  <view class='singleBox'>
+    <view class='imageBox'>
+      <image src='{{companyMes.incImage}}' class='image'></image>
+    </view>
+    <view class='companyMesBox'>
+      <text class='companyName'>{{companyMes.incName}}</text>
+      <text class='companySort'>{{companyMes.incSort}}</text>
+      <view class='otherBox'>
+        <text class='companyPlace'>{{companyMes.incPlace}}</text>
+        <text class='companyFuli'>{{companyMes.incFuli}}</text>
+      </view>
+    </view>
+  </view>
+  <view class='changBar'>
+    <view class='harf' ontap="changeA">
+      <view  class="singleBar {{ check == 'a'? 'checkBar' : null }} ">公司详情</view>
+
+    </view>
+    <view class='harf' ontap="changeB">
+      <view  class="singleBar {{ check == 'b'? 'checkBar' : null }} ">在招职位</view>
+
+    </view>
+  </view>
+</view>
+<view class='space'></view>
+
+
+<view class='bottomBox'>
+  <block wx:if="{{ check == 'a' }}">
+    <view class='bottomContainer'>
+    <template is="wemark" data="{{...wemark}}"></template>
+    </view>
+  </block>
+  <block wx:if="{{ check == 'b' }}">
+    <block wx:for="{{hotJobList}}" wx:for-item="item">
+      <template is="job_list" data="{{...item}}" />
+    </block>
+  </block>
+
+
+</view>

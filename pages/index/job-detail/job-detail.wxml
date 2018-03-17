@@ -1,0 +1,50 @@
+<import src="../../../wemark/wemark.wxml" />
+<view class="topContainer">
+  <view class="topBox">
+    <text class='jobName'>{{jobMes.jobName}}</text>
+    <view class='jobMesBox'>
+      <text class='moneyText'>{{jobMes.moneyText}}  </text>
+      <text class='jobMes'>{{jobMes.jobMes}}</text>
+    </view>
+    <text class='jobFuli'>{{jobMes.jobFuli}}</text>
+  </view>
+  <view class='incBox' ontap='toCompany' data-incname='{{jobMes.incName}}' >
+    <view class='incTextBox'>
+      <text class='incName'>{{jobMes.incName}}</text>
+      <text class='incMes'>{{jobMes.incMes}}</text>
+    </view>
+    <view class='IncImageBox'>
+      <image src='{{jobMes.incImage}}'></image>
+    </view>
+  </view>
+</view>
+
+<view class='between'></view>
+
+<view class='topMesDetail'>
+  <view class='spaceBox'></view>
+  <view class='mesBoxTopText'>职业描述</view>
+  <view class='spaceBox'></view>
+</view>
+
+<view class='jobTextBoxContainer'>
+   <view class='jobTextBox'> 
+    <template is="wemark" data="{{...wemark}}"></template>
+   </view> 
+</view>
+
+<view class='bottombar'>
+  <view class='cagBar' ontap="cagTap">
+    <block wx-if="{{!caged}}">
+      <text class=' cagLogo fa fa-star-o iconWidth'></text>
+    <text class='cagText'>收藏</text>
+    </block>
+    <block wx-if="{{caged}}">
+      <text class=' cagLogo fa fa-star-o iconWidth' style="color:#26b693"></text>
+      <text class='cagText' style="color:#26b693">已收藏</text>
+    </block>
+  </view>
+  <view class='submitResunmeBar' ontap="cagSubmit">
+  投递简历
+  </view>
+</view>

@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/mes-page/mes-page",
+    
+    "pages/index/tips/tips",
+    
+    "pages/index/company-page/company-page",
+    "pages/index/company/company",
+    
+    "pages/index/full-time/full-time",
+    "pages/index/all-job-list/all-job-list",
+    
+   
+    "pages/index/news/news",
+    "pages/index/part-time/part-time",
+    "pages/index/job-detail/job-detail",
+    
+    
+    
+    "pages/preach/preach",
+    "pages/preach/preach-detail/preach-detail",
+    
+    "pages/about/about-resume/about-resume",
+    
+    "pages/about/about-me/about-me",
+    "pages/about/about-cag/about-cag",  
+    "pages/about/about",
+    "pages/logs/logs",
+    
+    
+    "pages/about/about-ques/about-ques"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#26b693",
+    "navigationBarTitleText": "青云校招",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    
+    "color": "#8a8a8a",
+    "selectedColor": "#26b693",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/index.png",
+        "selectedIconPath": "image/indexs.png"
+      },
+      {
+        "pagePath": "pages/preach/preach",
+        "text": "宣讲日历",
+        "iconPath": "image/preach.png",
+        "selectedIconPath": "image/preachs.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "个人",
+        "iconPath": "image/about.png",
+        "selectedIconPath": "image/abouts.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+<import src="../single-mes-template/single-mes-template.wxml" />
+
+<view class='tipsContainer'>
+
+<block wx:for="{{tipsMes}}" wx:for-item="item">
+  <template is="single_mes" data="{{...item}}" />
+</block>
+  
+</view>

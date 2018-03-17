@@ -1,0 +1,133 @@
+@import "preach-list-template/preach-list-template.wxss";
+
+
+.topbar{
+  width: 100%;
+  height: 68rpx;
+  background: #26b693;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sanjiao{
+  height: 14rpx;
+  width: 14rpx;
+  margin-left: 16rpx;
+  border: 5rpx solid white;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  transform:rotate(-45deg);
+  margin-bottom: 16rpx;
+}
+.timebar{
+  color: white;  
+}
+.calendarbar{
+  width: 100%;
+  height: 60rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.calendarbar > text{
+  color: #4c4c4c;
+  font-size: 28rpx;
+}
+.calendarBox{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+}
+
+.calendarPoint{
+  height: 102rpx;
+  width: 102rpx;
+  /* background: gray; */
+   margin-top: 6rpx; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.dayPoint{
+  font-size: 28rpx;
+  height: 60rpx;
+  width: 60rpx;
+  line-height: 60rpx;
+  border-radius: 30rpx;
+  text-align: center;
+}
+ .dayPointToday{
+ color: #26b693;
+ 
+} 
+.dayPointPass{
+ color: #d6d6d6;
+}
+.dayPointFu{
+  color: #26b693;
+}
+.dayPass{
+  height: 30rpx;
+  line-height: 30rpx;
+}
+.dayPass::after{ 
+color: #d6d6d6;
+margin-top: -18rpx; 
+font-size: 22rpx;
+content: '过去';
+}
+.dayNow{
+  height: 30rpx;
+  line-height: 30rpx;
+}
+.dayNow::after{
+color: #26b693;
+margin-top: -18rpx; 
+font-size: 22rpx;
+content: '今天';
+}
+
+.dayNo{
+  height: 30rpx;
+  line-height: 30rpx;
+}
+.dayNo::after{
+  
+margin-top: -18rpx; 
+font-size: 22rpx;
+content: '';
+}
+
+.pointAt{
+  color: white;
+ background: #26b693;
+}
+.dispoint{
+  display: none;
+}
+
+.pickOut{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pickUn{
+  width: 96%;
+  padding-top: 14rpx;
+  line-height: 50rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #26b693;
+  font-size: 30rpx;
+   border-top: 1px solid #f7f7f7; 
+}
+.preachList{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,16 @@
+<template name='single_mes'>
+  <view catchtap='tapMes' data-tipid="{{objectId}}" class='singleBox'>
+    <view class='ImageBox'>
+      <image src='{{tipImage}}'></image>
+    </view>
+    <view class='mesBox'>
+      <view class='textBox'>
+        <text>{{tipTitle}}</text>
+      </view>
+       <view class='otherMes'>
+        <text>{{tipSource}}</text>
+        <text>{{tipDate}}</text>
+      </view> 
+    </view>
+  </view>
+</template>
