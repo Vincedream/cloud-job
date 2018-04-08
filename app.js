@@ -1,7 +1,7 @@
  const AV = require('./libs/av-weapp-min.js');
 AV.init({
   appId: '3uUhkgKJjk3DIRkSRPmM0B0M-gzGzoHsz',
-  appKey: 'rHpaGk49qAtUt7nlRxcwi3Ci',
+  appKey: 'rHpaGk49qAtUt7nlXXXXXXX',
 });
 //app.js
 App({
