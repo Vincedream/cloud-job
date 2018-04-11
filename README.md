@@ -31,6 +31,8 @@ but。。。
 
 满足大家的欲望，我将所有的页面都录制了gif图，因考虑到加载时间的原因，可能不是那么清晰，如果想要完整看到，那么就要clone源码到自己电脑上编译啦～
 
+**由于github加载gif缓慢，请移步到我的博客页面查看加载更快速的gif** : [基于LeanCloud为后端的 “云校招” 微信小程序开发总结](http://vince.xin/article/5acc3acd6b78214ab8ac58da)
+
 - 主界面：
 
 ![image](http://static.vince.xin/JISCFJIOWRF.gif)
